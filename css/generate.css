@@ -1,0 +1,15 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #20af27;
+    text-align: center;
+    height: 600px;
+}
+.motorbike-label{
+    columns: white;
+    font-size: 3rem;
+    padding: 2rem;
+}
+.motor-model{
+    width: 25rem;
+}

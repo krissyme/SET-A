@@ -1,0 +1,133 @@
+@font-face{
+    src: url(../font/blazed/Blazed.ttf);
+    font-family: Blazed;
+}
+body{
+        margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.head{
+    background: radial-gradient(circle, rgba(238, 174, 202,1)0%, rgba(148,187,233,1)100%);
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    margin: 0;
+    padding: 0;
+}
+.text-center{
+    font-size: 60px;
+}
+#logo{
+    width: 60px;
+    margin-left: 3rem;
+    border-radius: 100%;
+}
+
+h1{
+    font-family: Blazed;
+    text-align: center;
+}
+
+/*backgrounds*/
+#select{
+    
+    background:rgb(218, 211, 211);
+    box-shadow: 3px 3px 10px rgba(0,0,0,.2),
+                -3px -3px 10px rgba(255, 255, 255,1);
+}
+
+#select:hover{
+    
+    box-shadow: inset 3px 3px 10px rgba(0,0,0,.2),
+    inset -3px -3px 10px rgba(255, 255, 255,1);
+}
+
+
+.blue{
+    background-color: blue;
+}
+
+.grey{
+    background-color: grey;
+}
+
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.lightBlue{
+    background-color: rgb(29, 136, 179);
+}
+
+.black{
+    background-color: black;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
+    box-shadow: 3px 3px 10px rgba(0,0,0,.5),
+                -3px -3px 10px rgba(255, 255, 255,1);
+}
+
+.btn:hover{
+    transition: .5s;
+    text-decoration: none;
+    box-shadow: inset 3px 3px 10px rgba(0,0,0,.5),
+                inset -3px -3px 10px rgba(255, 255, 255,1);
+
+    animation: animate 8s linear infinite;
+}
+
+@keyframes animate
+    {
+        0%
+        {
+            background-position: 0%;
+        }
+        100%
+        {
+            background-position: 400%;
+        }   
+    }
+
+
+
+/*footer*/
+footer{
+    width: 100%;
+    background-color: rgb(59, 58, 58);
+    padding-top: 2%;
+    color: white;
+}
+
+.footer .footer-contact{
+    font-size: 15px;
+}
+
+.fa{
+    padding-right: 5%;
+    font-size: 15px;
+    color: white;
+}
+.fa:hover{
+    color: rgb(175, 157, 157);
+}
+
+#copyright{
+    font-size: small;
+    padding-bottom: 1rem;
+}
+

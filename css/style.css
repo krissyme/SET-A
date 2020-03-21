@@ -1,0 +1,86 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    height: 100vh;
+    background: radial-gradient(circle, rgba(238, 174, 202,1)0%, rgba(148,187,233,1)100%);
+}
+.container{
+    padding: 0;
+}
+.navbar{
+    margin: 0;
+    padding: 0;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.text-center{
+    font-size: 60px;
+}
+
+#logo{
+    width: 60px;
+    margin-left: 4rem;
+    border-radius: 100%;
+}
+
+
+.btn{
+    text-decoration: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
+    box-shadow: 3px 3px 10px rgba(0,0,0,.5),
+                -3px -3px 10px rgba(255, 255, 255,1);
+}
+
+.btn:hover{
+    text-decoration: none;
+    box-shadow: inset 3px 3px 10px rgba(0,0,0,.5),
+                inset -3px -3px 10px rgba(255, 255, 255,1);
+    animation: animate 8s linear infinite;
+}
+
+@keyframes animate
+    {
+        0%
+        {
+            background-position: 0%;
+        }
+        100%
+        {
+            background-position: 400%;
+        }   
+    }
+/*footer*/
+footer{
+    width: 100%;
+    background-color: rgb(59, 58, 58);
+    padding-top: 2%;
+    color: white;
+}
+
+.footer .footer-contact{
+    font-size: 15px;
+}
+
+
+.fa{
+    padding-right: 5%;
+    font-size: 15px;
+    color: white;
+}
+.fa:hover{
+    color: rgb(175, 157, 157);
+}
+
+#copyright{
+    font-size: small;
+    padding-bottom: 1rem;
+}
